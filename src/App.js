@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -6,16 +5,15 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
-import Footer from "C:\Users\goyal\OneDrive\Desktop\react\counselify\src\Footer.js";
+import Footer from "./Footer.js";
 
 function App() {
   return (
     <>
     <Navbar expand="lg" className="bg-body-tertiary sticky">
-      <Container className=''>
+      <Container className='head-item'>
         <Navbar.Brand href="#home">
           <div className='head'>
             Counselify
@@ -74,8 +72,8 @@ function App() {
       </Container>
     </Navbar>
     <div className='m-0 p-0'>
-      <Row>
-      <Image className='img' src="https://cdn.pixabay.com/photo/2021/10/11/04/08/university-6699377_640.jpg" fluid />
+      <Row className='m-0 p-0'>  
+      <Image className='img m-0 p-0 size' src="https://cdn.pixabay.com/photo/2021/10/11/04/08/university-6699377_640.jpg" fluid />
       </Row>
     </div>
     <Footer></Footer>

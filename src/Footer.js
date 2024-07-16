@@ -9,7 +9,7 @@ import {
 	Heading,
 } from "./FooterStyles";
 
-
+import Image from 'react-bootstrap/Image';
 
 const Footer = () => {
 	return (
@@ -19,16 +19,23 @@ const Footer = () => {
 				<Row>
                 
 					<Column>
-						<Heading>About Us</Heading>
-						<FooterLink href="#">
-							Aim
+						<div>
+                            <ul className='social'>
+                            <FooterLink href="#">
+							<Image className='logo' src="https://static-00.iconduck.com/assets.00/instagram-icon-2048x2048-48iy8fap.png"  />
 						</FooterLink>
 						<FooterLink href="#">
-							Vision
+                        <Image className='logo' src="https://static-00.iconduck.com/assets.00/instagram-icon-2048x2048-48iy8fap.png"  />
 						</FooterLink>
 						<FooterLink href="#">
-							Testimonials
+                        <Image className='logo' src="https://static-00.iconduck.com/assets.00/instagram-icon-2048x2048-48iy8fap.png"  />
 						</FooterLink>
+                        <FooterLink href="#">
+                        <Image className='logo' src="https://static-00.iconduck.com/assets.00/instagram-icon-2048x2048-48iy8fap.png"  />
+						</FooterLink>
+                            </ul>
+                        </div>
+						
 					</Column>
 					<Column>
 						<Heading>Services</Heading>
@@ -75,7 +82,21 @@ const Footer = () => {
 							Mumbai
 						</FooterLink>
 					</Column>
-                    
+                    <Column>
+						<Heading>Contact Us</Heading>
+						<FooterLink href="#">
+							Uttar Pradesh
+						</FooterLink>
+						<FooterLink href="#">
+							Ahemdabad
+						</FooterLink>
+						<FooterLink href="#">
+							Indore
+						</FooterLink>
+						<FooterLink href="#">
+							Mumbai
+						</FooterLink>
+					</Column>
 				</Row>
                 <hr className='line'/>
                 
